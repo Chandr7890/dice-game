@@ -1,0 +1,49 @@
+<!doctype>
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Dice game</h1>
+            <h2>Player 1 turn..... </h2>
+        </center>
+
+
+       <center> <div class ="img">
+
+
+            <img src=" images/dice6.png" width="15%" height="25%">
+         
+            <img src=" images/dice6.png" width="15%" height="25%">
+        </div> </center>
+        <div class="text">
+            <h3 class=" pl1" >player1</h3>
+            <h3 class="pl2">player2</h3>
+           
+        </div>
+       
+        <div class="sbutton">
+        <div class = "play1"><button class="sub" onclick="fun()" >play</button></div>   
+         <div class = "play2"><button class="sub" onclick="fun1()">play</button></div>
+        </div>
+        <div class="q">
+            <h1 class=" chances1"> 6 chances</h1>
+            <h1 class=" chances2"> 6 chances</h1>
+        </div>
+        
+       <center><p style="color:black;">you have only 6 chances</p></center>
+       <center>
+        <h1 class="winner">
+             winner announcement
+
+        </h1>
+        <button onclick="refresh()" style="background-color:green;border-radius: 40%;">refresh</button>
+        </center>
+        <script src="dice.js">
+            
+        </script>
+
+
+    </body>
+</html>

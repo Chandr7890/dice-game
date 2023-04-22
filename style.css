@@ -1,0 +1,81 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color:purple;
+    font-style:italic;
+    font-size: 5vw;
+}
+.img{
+    margin-top:10%;
+    position:relative;
+    size:10%;
+}
+img{
+    margin-left:5%;
+    position:relative;
+    size:10%;
+    transform: rotateY(180deg);
+}
+.text{
+    display:flex;
+    margin-left:50%;
+}
+.pl1{
+    
+    margin-left:-25%
+   
+}
+h3{
+  font-size: 2vw;
+}
+.pl2{
+    
+    margin-left:33%;
+}
+
+
+.sbutton{
+    display:flex;
+    margin-left:50%;
+}
+.play1{
+  margin-left:-20%;
+  
+}
+.play2{
+    margin-left:30%;
+  }
+  .play1 .sub{
+    padding-left:100%;
+    padding-right:100%;
+    border-radius: 50%;
+  }
+  .play2 .sub{
+    padding-left:100%;
+    padding-right:100%;
+    border-radius: 50%;
+  }
+  .play1 .sub:hover{
+    background-color: aquamarine;
+  }
+  .play2 .sub:hover{
+    background-color: aquamarine;
+  }
+  
+  .q{
+    display:flex;
+  }
+  .chances1{
+    margin-left:30%;
+  }
+  .chances2{
+    margin-left:10%;
+  }
+  h2{
+    color:yellow;
+  }
+  .winner{
+    margin-top:60%;
+    color:goldenrod
+  }
